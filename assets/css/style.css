@@ -21,6 +21,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 5px;
 }
 /* Navigation and menu*/
 #menu {
@@ -58,7 +59,7 @@ h1, h2 {
     width:100%;
     overflow: hidden;
 
-    position: absolute;
+    position: relative;
  }
 /* Hero image cover text*/
  #cover-text, #cover-text h2{
