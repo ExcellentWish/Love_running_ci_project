@@ -22,3 +22,16 @@ h1, h2 {
     float: left;
     font-size: 280%;
 }
+/* Navigation and menu*/
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    float: right;
+    
+}
+/*CI Navigation Styling 1 had float right which made them go in reverse order. I changed the float to the menu and made the lists inline with display*/
+#menu li {
+    display: inline;
+    list-style: none;
+    margin-right: 30px;
+}
